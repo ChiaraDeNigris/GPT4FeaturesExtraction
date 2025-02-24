@@ -72,9 +72,7 @@ patterns = {
     'MAESTRO':r'\b(5018|5020|5038|6304|6759|6761|6763)[0-9]{8,15}\b',
     'VISA_MASTERCARD':r'\b(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})\b',
     'PHONE_NUMBER': r'\b[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}\b',
-    'LINK':r'(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])',
-    #ignoring lottomatica email
-    'EMAIL':r'\b(?!.*lottomatica)[\w\-\.]+@([\w-]+\.)+[\w-]{2,}\b'
+    'LINK':r'(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])'
 }
 
 #create a df with a flag column for each pattern found
