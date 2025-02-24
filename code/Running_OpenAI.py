@@ -90,7 +90,7 @@ display(semitot_df)
 # COMMAND ----------
 
 openaikey = dbutils.secrets.get(scope="",key="")
-#openaiendpoint = dbutils.secrets.get(scope="adv-training-key-vault",key="oai-voicebot-gpt4-turbo-dev-endpoint")
+#openaiendpoint = dbutils.secrets.get(scope="")
 
 client = AzureOpenAI(
     api_key=openaikey,  
