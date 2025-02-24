@@ -47,9 +47,6 @@ df_total_data.createOrReplaceTempView("total_data")
 
 # COMMAND ----------
 
-#Folder= "Running_Lotto/"
-#File="part-00000-tid-3204989272311303246-ae05307b-56ff-4531-a505-33a6da955af2-291-1-c000.csv"
-
 file_path = ""+Folder+"/"+File
 
 df = spark.read.csv(file_path, header=True, inferSchema=True, sep=";")
