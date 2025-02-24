@@ -10,8 +10,6 @@
 # COMMAND ----------
 
 #%run ./Shared/common/connections
-#%run /Repos/adv-voicebot/adv-voicebot-common/adb/Shared/connections
-#%run ./Repos/adv-voicebot/adv-voicebot-common/adb/Shared/common/connections
 
 # COMMAND ----------
 
